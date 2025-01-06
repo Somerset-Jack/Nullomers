@@ -4,7 +4,7 @@
 FASTA files require either .fa, .fna or .fasta
 To use the nullomer generator the command:
 ```
-python nullomer_controller 10 myfasta.fa
+python nullomer_controller.py 10 myfasta.fa
 ```
 This creates 4 directories: 10_Nullomers, 10_FO_Nullomers, jellyfishfiles, and indexed_kmers. 
 
