@@ -8,6 +8,10 @@ python nullomer_controller.py 10 myfasta.fa
 ```
 This creates 4 directories: 10_Nullomers, 10_FO_Nullomers, jellyfishfiles, and indexed_kmers. 
 
+## Nullomers from 69 Arabidopsis genomes
+
+This directory contains the zip file of all nullomers generated for 69 Arabidopsis thaliana genomes at k-mer lengths 10, 11 and 12.
+
 ## Nullomers Generating Files
 
 The repository contains four python files containing the code that generates Nullomers and identifies High Order Nullomers from a genome. 
