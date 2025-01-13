@@ -2,6 +2,7 @@
 
 ## Usage
 FASTA files require either .fa, .fna or .fasta
+Two required parameteres, k-mer length and FASTA file.
 To use the nullomer generator the command:
 ```
 python nullomer_controller.py 10 myfasta.fa
@@ -32,7 +33,7 @@ Responsible for running Jellyfish and storing the k-mers that are present in the
 * __nullomer_generator__ - Compares the set of all possible k-mers with the list of present k-mers
 * __nullomers_to_file__ - Writes the nullomers to a txt file
 
-## firstorder_nullomers.py
+### firstorder_nullomers.py
 
 * __fo_controller__ - Reads in the files and calls functions
 * __all_possible_mutations__ - For each nullomers, generates all the possible 1bp mutations
